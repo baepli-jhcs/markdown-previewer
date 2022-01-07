@@ -49,14 +49,13 @@ html, body {
 
 #preview blockquote {
     border-left: 3px solid black;
-    color: #224b4b;
     padding-left: 5px;
     margin-left: 25px;
   }
 
   #preview code {
     background: white;
-    font-size: 0.875rem;
+    font-size: 12px;
     font-weight: bold;
   }
 
@@ -65,7 +64,6 @@ html, body {
     overflow: auto;
     background: white;
     padding: 5px;
-    line-height: 1.2;
   }
 
   #preview h1 {
