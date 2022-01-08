@@ -30,17 +30,16 @@ html, body {
     background-color: darkblue;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 #preview {
     width: 100%;
     background-color: #EEEEEE;
     padding: 20px;
-    min-height: 95vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
+
 #preview img {
         display: block;
         max-width: 90%;
